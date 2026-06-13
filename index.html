@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacitación de Servicio: Apego Inmediato y Lactancia Materna</title>
+    <style>
+        body {
+            background-color: #f7ebe6; /* Color de fondo cálido a tono con el folleto */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container {
+            text-align: center;
+            max-width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .folleto-link {
+            display: inline-block;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .folleto-link img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        /* Efecto hover sutil para PC */
+        @media (hover: hover) {
+            .folleto-link img:hover {
+                transform: scale(1.015);
+                box-shadow: 0 12px 32px rgba(0,0,0,0.18);
+            }
+        }
+        .btn-zoom {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 16px 32px;
+            background-color: #2d8cff; /* Azul característico de Zoom */
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(45, 140, 255, 0.3);
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+        .btn-zoom:hover {
+            background-color: #1a73e8;
+        }
+        .btn-zoom:active {
+            transform: scale(0.98);
+        }
+        .info-adicional {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #665a55;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Al tocar la imagen, redirige directo al Zoom con las credenciales correctas -->
+    <a href="https://us04web.zoom.us/j/7229153696?pwd=RoxxSVJOZHN5TGkvTjk3WKE0NHJlZz09" class="folleto-link" target="_blank">[cite: 1]
+        <img src="folleto.jpg" alt="Capacitación de Servicio: Apego Inmediato y Lactancia Materna">[cite: 1]
+    </a>
+    
+    <br>
+    
+    <!-- Botón de acción claro debajo de la imagen -->
+    <a href="https://us04web.zoom.us/j/7229153696?pwd=RoxxSVJOZHN5TGkvTjk3WKE0NHJlZz09" class="btn-zoom" target="_blank">
+        👉 TOCÁ ACÁ PARA ENTRAR AL ZOOM 👈
+    </a>[cite: 1]
+
+    <div class="info-adicional">
+        <p>Si la aplicación de Zoom no se abre automáticamente, mantené presionado el botón para copiar el enlace.</p>
+    </div>
+</div>
+
+</body>
+</html>
